@@ -1,0 +1,11 @@
+Package: dnem
+Version: 0.1.1
+Title: Modeling the temporal interplay of molecular signaling and gene expression
+Author: Benedict Anchang <benedict.anchang@klinik.uni-regensburg.de>
+Description: The package 'dnem' estimates  signal propagation rates in a network from time series data of perturbation effects using gibbs sampling. We denote the signaling genes or perturbed genes as S-genes and the effect genes as E-genes. dnem takes as input (1.) a transitively closed directed graph, representing a hypothetical pathway , and (2.) binary time series high-dimensional phenotypic readout of perturbation effects (e.g. gene expression or morphological profiles). The output is a non necessarily transitive directed graph representing the phenotypic hierarchy with edges representing the rate of signal flow.
+Maintainer: Benedict Anchang <benedict.anchang@klinik.uni-regensburg.de>
+Depends: R (>= 2.4.0),nem(>= 1.4.2), abind (>= 1.1.0)
+Suggests: Biobase (>= 1.10)
+biocViews: Microarray, Statistics, GraphsAndNetworks, Pathways
+License: GPL (>= 2)
+Packaged: 2009-11-16 11:44:14 UTC; anb28636

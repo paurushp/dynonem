@@ -1,0 +1,19 @@
+Package: nem
+Title: Nested Effects Models to reconstruct phenotypic hierarchies
+Version: 2.10.0
+Author: Holger Froehlich, Florian Markowetz, Achim Tresch, Christian Bender, Matthias Maneck, Claudio Lottaz, Tim Beissbarth
+Description: The package 'nem' allows to reconstruct features of pathways from the nested structure of perturbation effects. It takes as input (1.) a set of pathway components, which were perturbed, and (2.) high-dimensional phenotypic readout of these perturbations (e.g. gene expression or morphological profiles). The output is a directed graph representing the phenotypic hierarchy.
+Reference: Markowetz F, Bloch J, Spang R: Non-transcriptional pathway features reconstructed from secondary effects of RNA interference, Bioinformatics, 2005, 21:4026-4032.
+           Froehlich H, Fellmann M, Sueltmann H, Poustka A, Beissbarth T: Large Scale Statistical Inference of Signaling Pathways from RNAi and Microarray Data, BMC Bioinformatics, 2007, 8:386.
+           Froehlich H, Fellmann M, Sueltmann H, Poustka A, Beissbarth T: Estimating Large Scale Signaling Networks through Nested Effects Models from Intervention Effects in Microarray Data. Bioinformatics, 2008, 24:2650-2656.
+           Froehlich H, Beissbarth T, Tresch A, Kostka D, Jacob J, Spang R, Markowetz F: Analyzing gene perturbation screens with nested effects models in R and bioconductor, Bioinformatics, 2008, 24:2549-50.
+           Froehlich H, Tresch A, Beissbarth T: Nested effects models for learning signaling networks from perturbation data, Biometrical Journal, 2009, 2:304-323.
+Maintainer: Christian Bender <c.bender@dkfz-heidelberg.de>
+Depends: R (>= 2.0), e1071 (>= 1.5), graph (>= 1.10), Rgraphviz (>= 1.10), plotrix
+Imports: boot, e1071, graph, graphics, grDevices, methods, RBGL (>= 1.8.1), RColorBrewer, Rgraphviz, stats, utils
+Suggests: Biobase (>= 1.10)
+LazyLoad: Yes
+biocViews: Microarray, Bioinformatics, GraphsAndNetworks, Pathways
+URL: http://www.bioconductor.org
+License: GPL (>= 2)
+Packaged: 2009-10-28 08:39:09 UTC; biocbuild
